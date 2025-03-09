@@ -1,2 +1,2 @@
 # LUX
-Lightcone Utility for Dark Matter Haloes
+Lightcone Utility for Haloes
