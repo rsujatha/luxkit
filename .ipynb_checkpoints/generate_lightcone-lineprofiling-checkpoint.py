@@ -1,5 +1,5 @@
 import  pandas as pd
-import lightcone_martin as lm
+import lightcone as lm
 import numpy as np
 import gc
 import sys
