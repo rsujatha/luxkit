@@ -1,3 +1,6 @@
 # LUX
 Lightcone Utility for Haloes
-1) requires a parameter file join_table.pkl specific for your simulation
+Instructions
+1) Edit table-general.ipynb according to your simulation needs.
+    a) Cosmology of the simulation: Omega matter, Omega lambda, H0 etc
+    b) Make an array of redshifts available in the simulation
