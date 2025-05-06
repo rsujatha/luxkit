@@ -2,7 +2,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from line_profiler import profile
-
+print ('updated')
 @profile
 def radial_dist(data):
     return np.sqrt(data['x']**2 + data['y']**2 + data['z']**2)
@@ -64,7 +64,7 @@ def interpolation_scheme(joined_df,jointable):
         interpolated['pid'] = joined_df['pid_zi']
         interpolated['upid'] = joined_df['upid_zi']
         interpolated['scale_of_last_mm'] = joined_df['scale_of_last_mm_zi']
-    interpolation_type = {'x':'lin','y':'lin','z':'lin','xoff':'lin','vx':'lin','vy':'lin','vz':'lin','c_to_a':'lin','b_to_a':'lin','vrms':'log','vmax':'log','vpeak':'log','a_x':'log','a_y':'log','a_z':'log','jx':'log','jy':'log','jz':'log','spin':'log','rs':'log','rvir':'log','rvmax':'log','m200b':'log','mvir':'log','m200c':'log'}
+    interpolation_type = {'x':'lin','y':'lin','z':'lin','xoff':'lin','vx':'lin','vy':'lin','vz':'lin','c_to_a':'lin','b_to_a':'lin','vrms':'log','vmax':'log','vpeak':'log','a_x':'lin','a_y':'lin','a_z':'lin','jx':'lin','jy':'lin','jz':'lin','spin':'log','rs':'log','rvir':'log','rvmax':'log','m200b':'log','mvir':'log','m200c':'log'}
     print (interpolation_type)
     for axis in interpolation_type.keys():
         interpolated[axis] = interpolate(chistar, chi_f, chi_i, joined_df[f"{axis}_zf"], joined_df[f"{axis}_zi"],interpolation_type[axis])
