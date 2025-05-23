@@ -1,0 +1,5 @@
+healpy
+plotly
+ipywidgets
+numpy
+matplotlib
