@@ -13,5 +13,13 @@ Lightcone Utility for Haloes
 ## Interactive Plot Notebook on Kaggle
 Run and explore the interactive plot directly on Kaggle by clicking the image below.
 
-[![Interactive Plot Screenshot](images/screenshot_interactive.png)](https://www.kaggle.com/code/sujatharamakrishnan/interactive-plot)
+[![Interactive Plot Screenshot](images/screenshot_interactive.png)](https://www.kaggle.com/code/sujatharamakrishnan/interactive-plot/edit/run)
 
+
+### Local Jupyter Notebook
+
+You can also find the Jupyter notebook version in this repository here:
+
+[`optimal_angles_selector/interactive_plot.ipynb`](optimal_angles_selector/interactive_plot.ipynb)
+
+Open it locally or in any Jupyter environment.
