@@ -9,8 +9,9 @@ Lightcone Utility for Haloes
     b) Make an array of redshifts available in the simulation
 
 
-2) ## Interactive Plot Notebook on Kaggle
 
-Run and explore the interactive plot directly on Kaggle:
+## Interactive Plot Notebook on Kaggle
+Run and explore the interactive plot directly on Kaggle by clicking the image below.
 
-[![Open in Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/sujatharamakrishnan/\https://www.kaggle.com/code/sujatharamakrishnan/optimal-angle-selector/edit/run)
+[![Interactive Plot Screenshot](images/screenshot_interactive.png)](https://www.kaggle.com/code/sujatharamakrishnan/interactive-plot)
+
