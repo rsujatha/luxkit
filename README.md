@@ -12,15 +12,11 @@ Lightcone Utility for Haloes
 
 ## Optimal LC directing angle  
 This
-Run and explore the interactive plot directly on Kaggle by clicking the image below.
+## 🔗 Access & Run
 
-[![Interactive Plot Screenshot](images/screenshot_interactive.png)](https://www.kaggle.com/code/sujatharamakrishnan/optimal-angle-selector/edit/run)
+[![View Interactive Plot](https://img.shields.io/badge/GitHubPages-View-green?logo=github)](https://rsujatha.github.io/LUX/)
+[![View Source Code in Kaggle](https://img.shields.io/badge/Kaggle-Run-blue?logo=kaggle)](https://www.kaggle.com/code/sujatharamakrishnan/optimal-angle-selector)
+[![View Source Code on GitHub](https://img.shields.io/badge/GitHub-Notebook-lightgrey?logo=github)](https://github.com/rsujatha/LUX/blob/main/optimal-angle-selector.ipynb)
 
+[![Interactive Plot Screenshot](images/screenshot_interactive.png)](https://rsujatha.github.io/LUX/)
 
-### Local Jupyter Notebook
-
-You can also find the Jupyter notebook version in this repository here:
-
-[`optimal_angles_selector/interactive_plot.ipynb`](optimal_angles_selector/interactive_plot.ipynb)
-
-Open it locally or in any Jupyter environment.
