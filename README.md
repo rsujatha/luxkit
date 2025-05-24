@@ -17,5 +17,7 @@ Lightcone Utility for Haloes
 [![View Source Code in Kaggle](https://img.shields.io/badge/Kaggle-Run-blue?logo=kaggle)](https://www.kaggle.com/code/sujatharamakrishnan/optimal-angle-selector)
 [![View Source Code on GitHub](https://img.shields.io/badge/GitHub-Notebook-lightgrey?logo=github)](https://github.com/rsujatha/LUX/blob/main/optimal-angle-selector.ipynb)
 
-[![Interactive Plot Screenshot](images/screenshot_interactive.png)](https://rsujatha.github.io/LUX/)
+<a href="https://rsujatha.github.io/LUX/">
+  <img src="images/screenshot_interactive.png" alt="Interactive Plot Screenshot" width="400"/>
+</a>
 
