@@ -10,8 +10,8 @@ Lightcone Utility for Haloes
 
 
 
-## Optimal LC directing angles  
-
+## Optimal LC directing angle  
+This
 Run and explore the interactive plot directly on Kaggle by clicking the image below.
 
 [![Interactive Plot Screenshot](images/screenshot_interactive.png)](https://www.kaggle.com/code/sujatharamakrishnan/optimal-angle-selector/edit/run)
