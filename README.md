@@ -14,7 +14,7 @@ Lightcone Utility for Haloes
 
 Run and explore the interactive plot directly on Kaggle by clicking the image below.
 
-[![Interactive Plot Screenshot](images/screenshot_interactive.png)](https://www.kaggle.com/code/sujatharamakrishnan/interactive-plot/edit/run)
+[![Interactive Plot Screenshot](images/screenshot_interactive.png)](https://www.kaggle.com/code/sujatharamakrishnan/optimal-angle-selector/edit/run)
 
 
 ### Local Jupyter Notebook
