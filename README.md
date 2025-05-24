@@ -10,9 +10,8 @@ Lightcone Utility for Haloes
 
 
 
-## Optimal LC directing angle  
-This
-## 🔗 Access & Run
+
+## 🔗 Optimal LC directing angle 
 
 [![View Interactive Plot](https://img.shields.io/badge/GitHubPages-View-green?logo=github)](https://rsujatha.github.io/LUX/)
 [![View Source Code in Kaggle](https://img.shields.io/badge/Kaggle-Run-blue?logo=kaggle)](https://www.kaggle.com/code/sujatharamakrishnan/optimal-angle-selector)
