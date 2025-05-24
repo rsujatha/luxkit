@@ -50,12 +50,27 @@
   // Initial load
   updateViewer();
 </script>
-<footer style="font-size: 0.9em; color: #666; text-align: center; margin-top: 2em;">
-  <hr style="margin-bottom: 0.5em;">
-  <p>
-    <sup>1</sup> The origin of the coordinate system (0, 0, 0) is defined to coincide with the origin of the simulation box.
-  </p>
-</footer>
+<div style="
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 220px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+  font-size: 14px;
+">
+  <h3>Instructions</h3>
+  <ul>
+    <li>Rotate: left mouse drag</li>
+    <li>Zoom: scroll wheel</li>
+    <li>Details: click atom</li>
+    <li><strong>Origin:</strong> (0, 0, 0) = simulation box origin</li>
+  </ul>
+</div>
+
 
 </body>
 </html>
