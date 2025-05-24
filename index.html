@@ -40,7 +40,7 @@
     const lBox = parseFloat(lBoxSlider.value).toFixed(1);
     thetaValue.textContent = theta;
     lBoxValue.textContent = lBox;
-    const url = `pages/mask_L${lBox}_${theta}.html`;  // adjust folder & filename pattern
+    const url = `pages/mask_L${lBox}_theta${theta}.html`;  // adjust folder & filename pattern
     viewer.src = url;
   }
 
