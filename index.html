@@ -22,7 +22,7 @@
 
 <div class="slider-container">
   <label for="lBoxSlider">l/Lbox:</label>
-  <input type="range" id="lBoxSlider" min="1" max="5" step="1" value="2" />
+  <input type="range" id="lBoxSlider" min="1.0" max="5.0" step="1.0" value="2.0" />
   <span id="lBoxValue" class="value-label">2</span>
 </div>
 
@@ -37,7 +37,7 @@
 
   function updateViewer() {
     const theta = thetaSlider.value;
-    const lBox = lBoxSlider.value;
+    const lBox = parseFloat(lBoxSlider.value).toFixed(1);
     thetaValue.textContent = theta;
     lBoxValue.textContent = lBox;
     const url = `pages/mask_L${lBox}_${theta}.html`;  // adjust folder & filename pattern
