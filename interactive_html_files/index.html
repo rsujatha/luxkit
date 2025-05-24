@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Lightcone Visualizer with Sliders</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 30px; }
+  #viewer { width: 100%; height: 600px; border: 1px solid #ccc; margin-top: 20px; }
+  label { font-weight: bold; margin-right: 10px; }
+  .slider-container { margin-bottom: 15px; }
+  .value-label { display: inline-block; width: 40px; font-weight: normal; }
+</style>
+</head>
+<body>
+<h1>Lightcone Visualizer</h1>
+
+<div class="slider-container">
+  <label for="thetaSlider">θ (deg):</label>
+  <input type="range" id="thetaSlider" min="1" max="14" step="1" value="4" />
+  <span id="thetaValue" class="value-label">4</span>
+</div>
+
+<div class="slider-container">
+  <label for="lBoxSlider">l/Lbox:</label>
+  <input type="range" id="lBoxSlider" min="1" max="5" step="1" value="2" />
+  <span id="lBoxValue" class="value-label">2</span>
+</div>
+
+<iframe id="viewer" src="" frameborder="0"></iframe>
+
+<script>
+  const thetaSlider = document.getElementById('thetaSlider');
+  const lBoxSlider = document.getElementById('lBoxSlider');
+  const thetaValue = document.getElementById('thetaValue');
+  const lBoxValue = document.getElementById('lBoxValue');
+  const viewer = document.getElementById('viewer');
+
+  function updateViewer() {
+    const theta = thetaSlider.value;
+    const lBox = lBoxSlider.value;
+    thetaValue.textContent = theta;
+    lBoxValue.textContent = lBox;
+    const url = `pages/theta_${theta}_l_${lBox}.html`;  // adjust folder & filename pattern
+    viewer.src = url;
+  }
+
+  thetaSlider.addEventListener('input', updateViewer);
+  lBoxSlider.addEventListener('input', updateViewer);
+
+  // Initial load
+  updateViewer();
+</script>
+
+</body>
+</html>
