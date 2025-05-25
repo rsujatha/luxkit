@@ -36,13 +36,26 @@
   const viewer = document.getElementById('viewer');
 
   function updateViewer() {
-    const theta = thetaSlider.value;
-    const lBox = parseFloat(lBoxSlider.value).toFixed(1);
-    thetaValue.textContent = theta;
-    lBoxValue.textContent = lBox;
-    const url = `pages/mask_L${lBox}_theta${theta}.html`;  // adjust folder & filename pattern
+  const theta = thetaSlider.value;
+  const lBox = parseFloat(lBoxSlider.value).toFixed(1);
+  thetaValue.textContent = theta;
+  lBoxValue.textContent = lBox;
+  const url = `pages/mask_L${lBox}_theta${theta}.html`;
+
+  // Fade out the iframe
+  viewer.style.opacity = 0;
+
+  // Wait briefly for fade-out, then change src
+  setTimeout(() => {
     viewer.src = url;
-  }
+  }, 200); // matches the 0.3s transition speed
+
+  // When iframe finishes loading, fade back in
+  viewer.onload = () => {
+    viewer.style.opacity = 1;
+  };
+}
+
 
   thetaSlider.addEventListener('input', updateViewer);
   lBoxSlider.addEventListener('input', updateViewer);
