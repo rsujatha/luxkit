@@ -45,10 +45,8 @@
   // Fade out the iframe
   viewer.style.opacity = 0;
 
-  // Wait briefly for fade-out, then change src
-  setTimeout(() => {
-    viewer.src = url;
-  }, 200); // matches the 0.3s transition speed
+  viewer.src = url;
+
 
   // When iframe finishes loading, fade back in
   viewer.onload = () => {
