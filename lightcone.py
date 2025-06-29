@@ -47,8 +47,8 @@ def interpolate(chistar,chi_f,chi_i,q_f,q_i,interpolation_type):
 
 @profile
 def interpolation_scheme(joined_df,jointable):
-    chi_f = jointable['comovD_Min(Mpchinv)']
-    chi_i = jointable['comovD_Max(Mpchinv)']
+    chi_f = jointable['chi_f']
+    chi_i = jointable['chi_i']
     r_f = np.sqrt(joined_df["x_zf"]**2+joined_df["y_zf"]**2+joined_df["z_zf"]**2)  
     r_i = np.sqrt(joined_df["x_zi"]**2+joined_df["y_zi"]**2+joined_df["z_zi"]**2) 
     V = (r_f - r_i)/(chi_f-chi_i) ## Definining velocity######
