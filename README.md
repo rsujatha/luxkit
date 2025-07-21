@@ -1,5 +1,5 @@
 # Luxkit
-Lightcone Utility for Haloes
+A lightweight Lightcone Utility Code for Haloes
 
 ## Instructions
 
