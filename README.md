@@ -1,4 +1,4 @@
-# LUX
+# Luxkit
 Lightcone Utility for Haloes
 
 ## Instructions
