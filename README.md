@@ -1,5 +1,5 @@
 # Luxkit
-A Lightcone Utility Code for Haloes
+A Lightcone Utility Code for dark matter Haloes
 
 ## Instructions
 
