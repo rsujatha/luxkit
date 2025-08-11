@@ -1,5 +1,5 @@
-# Luxkit
-A Lightcone Utility Code for dark matter Haloes
+# HOLCon
+An Optimised Lightcone Constructor for haloes
 
 ## Instructions
 
